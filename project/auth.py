@@ -5,6 +5,7 @@ from .models import User
 from . import db, app
 
 auth = Blueprint('auth', __name__)
+#initial commit
 
 @auth.route('/login')
 def login():
